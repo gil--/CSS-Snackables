@@ -12,8 +12,18 @@ module.exports = {
     chunkFilename: '[id].chunk.js'
   },
 
+  module: {
+    loaders: [
+      {
+        test: /\.es6.js?$/,
+        exclude: /(node_modules|bower_components)/,
+        loader: 'babel',
+      },
+    ],
+  },
+
   resolve: {
-    extensions: ['', '.js'],
+    extensions: ['', '.js', '.es6.js'],
     modulesDirectories: ['shared', 'bundles', 'node_modules']
   },
 

@@ -5,3 +5,15 @@ $bp-small: 599px;
 $bp-medium: 770px;
 $bp-large: 979px;
 $bp-xlarge: 1199px;
+
+//= Styling Variables
+$b-radius: 5px; //border radius
+
+//= Color Pallete
+$c-alto: #ddd;
+$c-radical-red: #ff3d79;
+
+//= Theme Colors (ONLY USE THESE)
+$c-border: $c-alto;
+$c-primary: $c-radical-red;
+$c-dark: #2b2b2b;

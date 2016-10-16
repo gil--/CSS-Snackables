@@ -1,0 +1,47 @@
+.nav--tabs {
+  background-color: white;
+  border-bottom: 1px solid $c-border;
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      flex: 1;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+
+      &.active {
+        font-weight: bold;
+        color: $c-primary;
+
+        span {
+          position: relative;
+          padding-left: 15px;
+
+          &:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: currentColor;
+            transform: translateY(-50%);
+          }
+        }
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}
