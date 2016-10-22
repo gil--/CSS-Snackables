@@ -1,3 +1,9 @@
+# Week 1, UI to CSS & HTML
+
+## Youtube Video
+
+You can watch the [full Youtube video](https://www.youtube.com/watch?v=fkPmFAIzHTs).
+
 ## Online Demo
 
 You can view the online working demo on [CodePen](http://codepen.io/gil--/pen/GjXNQo)
