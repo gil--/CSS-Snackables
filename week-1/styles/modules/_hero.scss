@@ -1,0 +1,10 @@
+.hero {
+  &--main {
+    min-height: 200px;
+    padding-top: 70px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(to bottom right, #f92f53 0%, #ff3d79 100%);
+  }
+}

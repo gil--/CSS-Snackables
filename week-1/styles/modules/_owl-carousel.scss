@@ -1,0 +1,29 @@
+.owl-stage-outer {
+  padding-bottom: 10px;
+}
+
+.owl-theme  {
+  .owl-nav.disabled {
+    display: none;
+
+    + .owl-dots {
+      margin-top: 0;
+    }
+  }
+
+  .owl-dots .owl-dot {
+    span {
+      background-color: rgba(255, 255, 255, 0.6);
+      transition: all .25s;
+    }
+
+    &.active span,
+    &:hover span {
+      background-color: white;
+    }
+
+    &.active span {
+      transform: scale(1.5);
+    }
+  }
+}

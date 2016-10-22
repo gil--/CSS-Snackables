@@ -1,0 +1,30 @@
+.nav--top {
+  position: fixed;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+  z-index: 10;
+
+  &--sticky {
+    color: $c-primary;
+    background-color: white;
+    border-bottom: 2px solid #efefef;
+  }
+
+  a,
+  button {
+    color: currentColor;
+  }
+
+  svg.outline * {
+    stroke: currentColor;
+  }
+
+  svg.glyph * {
+    fill: currentColor;
+  }
+}
