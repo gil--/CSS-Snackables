@@ -1,0 +1,27 @@
+{
+  "name": "week-2",
+  "version": "1.0.0",
+  "description": "CSS Snackables Boilerplate Packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gil Greenberg",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "browser-sync": "^2.17.3",
+    "credit-card-type": "^5.0.0",
+    "expose-loader": "^0.7.1",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^6.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.1.1",
+    "gulp-watch": "^4.3.10",
+    "postcss-assets": "^4.1.0",
+    "webpack-stream": "^3.2.0"
+  }
+}
