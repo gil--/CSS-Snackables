@@ -1,0 +1,25 @@
+
+//= Breakpoints
+$bp-xsmall: 479px;
+$bp-small: 599px;
+$bp-medium: 770px;
+$bp-large: 979px;
+$bp-xlarge: 1199px;
+
+//= Color Palette
+$c-dodger-blue: #35a4fb;
+$c-gallery: #f0f0f0;
+$c-cod-gray: #1a1a1a;
+$c-silver: #cdcdcd;
+$c-sunglow: #fbcf34;
+$c-mountain-meadow: #24cf5f;
+
+//= Theme Colors
+$c-lightest: $c-gallery;
+$c-light: $c-silver;
+$c-info: $c-dodger-blue;
+$c-primary: $c-mountain-meadow;
+$c-accent: $c-sunglow;
+$c-dark: $c-cod-gray;
+
+$box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.1);
